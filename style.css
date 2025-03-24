@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Modak&family=Quicksand:wght@300..700&family=Ranchers&family=Unkempt:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/marykate');
+body {
+    background-color: #fffae7;
+    color: #020202;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+header{
+    background-color: #a45d83;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-size: medium;
+    margin-top: 0px;
+    font-family: "Quicksand";
+}
+h3{
+    margin: 0px;
+}
+nav{
+    background-color: #ffcde8;
+    border-radius: 30px;
+    padding: 17px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+a{
+    padding: 50px;
+    color: #020202;
+    font-family: "Quicksand";
+    font-size: medium;
+}
+.frase{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.texto{
+    font-family: "Quicksand";
+}
+.busca{
+    border-radius: 30px;
+    width: 700px;
+    background-color: #d9d9d9;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 40px;
+    border-color: #d9d9d9;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+}
+select{
+    font-size: 15px;
+    height: 40px;
+    background: #d9d9d9;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 40px;
+
+  }
