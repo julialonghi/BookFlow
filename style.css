@@ -31,6 +31,7 @@ a{
     color: #020202;
     font-family: "Quicksand";
     font-size: medium;
+    font-weight: 800;
 }
 .frase{
     display: flex;
@@ -66,5 +67,31 @@ select{
     border-radius: 30px;
     display: flex;
     margin-top: 40px;
-
-  }
+}
+.livro{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 170px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.colecao{
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    width: 250px;
+    height: 380px;
+    margin: 30px;
+    font-family: "Quicksand";
+    font-size: small;
+    font-weight: 800;
+}
+button{
+    border-radius: 30px;
+    background-color: #a45d83;
+    width: 100px;
+    height: 30px;
+    font-family: "Quicksand";
+    font-weight: 800;
+}
