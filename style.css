@@ -95,3 +95,14 @@ button{
     font-family: "Quicksand";
     font-weight: 800;
 }
+.logo img {
+    height: 95px;
+}
+.icon-left {
+    width: 60px;
+    height: 60px;
+}
+.icon-right {
+    width: 100px;
+    height: 70px;
+}
