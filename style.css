@@ -94,8 +94,8 @@ button{
     height: 30px;
     font-family: "Quicksand";
     font-weight: 800;
-    
-.header {
+}
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,15 +103,14 @@ button{
     background-color: #fffae7; 
     height: 100px; 
 }
-}
-.logo img {
+.logo img{
     height: 95px;
 }
-.icon-left {
+.icon-left{
     width: 60px;
     height: 60px;
 }
-.icon-right {
+.icon-right{
     width: 100px;
     height: 70px;
 }
