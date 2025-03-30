@@ -18,6 +18,7 @@ header{
 }
 h3{
     margin: 0px;
+    font-family: "Quicksand";
 }
 nav{
     background-color: #ffcde8;
@@ -53,7 +54,7 @@ a{
     margin-left: 0px;
     margin-bottom: 0px;
 }
-form{
+.tipos{
     display: flex;
     justify-content: space-around;
 }
@@ -113,4 +114,38 @@ button{
 .icon-right{
     width: 100px;
     height: 70px;
+}
+article{
+    background-color: #ffcde8;
+    border-radius: 30px;
+    padding: 17px;
+    margin-top: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Quicksand";
+}
+.formu{
+    border-radius: 30px;
+    background-color: #f8f7f7;
+    border-color: #f8f7f7;
+    width: 750px;
+    font-family: "Quicksand";
+}
+.cad{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+.f{
+    margin-left: 20px;
+}
+.form2{
+    font-family: "Quicksand";
+    display: flex;
+    justify-content: space-evenly;
 }
