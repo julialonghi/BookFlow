@@ -38,7 +38,7 @@ a{
 .frase{
     display: flex;
     justify-content: flex-start;
-    margin-left: 80px;
+    margin-left: -40px;
     margin-top: 20px;
 }
 .f_livro{
@@ -47,7 +47,7 @@ a{
 .texto{
     font-family: "Quicksand";
     text-align: left;
-    margin-left: 120px;
+    margin-left: 180px;
     font-size: larger;
     font-weight: 800;
 }
@@ -161,9 +161,9 @@ article{
     display: flex;
     justify-content: space-evenly;
 }
-li, h5{
+li,h5{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 20px;
 }
 .meninas{
@@ -173,12 +173,14 @@ li, h5{
    margin-top: 45px;
 }
 .ft_meninas{
-    width: 430px;
+    width: 470px;
 }
 .girls{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .fonte{
     font-family: "Quicksand";
