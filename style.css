@@ -149,3 +149,14 @@ article{
     display: flex;
     justify-content: space-evenly;
 }
+li, h5{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.meninas{
+   display:flex;
+   justify-content: flex-end;
+   margin-left: 70px;
+   margin-top: 20px;
+}
