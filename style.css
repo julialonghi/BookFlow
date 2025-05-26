@@ -105,7 +105,6 @@ button{
     font-family: "Quicksand";
     font-weight: 800;
     box-shadow: 2px 2px 4px #b1aeae;
-
 }
 .header{
     display: flex;
@@ -184,4 +183,110 @@ li,h5{
 }
 .fonte{
     font-family: "Quicksand";
+}
+.compra{
+    display: flex;
+
+}
+.pedidos{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+}
+.livro_ft{
+    display: flex;
+    height: 110px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.ft{
+    border-radius: 10px;
+}
+.livro_esc{
+    display: flex;
+    align-items: flex-end;
+    font-family: "Quicksand";
+    font-weight: 800;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-size: larger;
+}
+.res_final{
+    background-color: #ffcde8;
+    border-radius: 30px;
+    width: 400px;
+    height: 360px;
+    margin-left: 140px;
+    margin-top: 30px;
+    font-family: "Quicksand";
+    font-size: small;
+    font-weight: 800;
+    box-shadow: 2px 2px 4px #bdb9b9;
+}
+.conj{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    text-align: left;
+    margin-left: 50px;
+}
+.pagamento{
+    margin-left: 80px;
+}
+.final{
+    border-radius: 30px;
+    background-color: #ffcde8;
+    width: 170px;
+    height: 50px;
+    font-family: "Quicksand";
+    font-weight: 800;
+    font-size: large;
+    box-shadow: 2px 2px 4px #b1aeae;
+    border-color: #ffcde8;
+    border-style: none;
+}
+.finalizar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-left: 155px;
+}
+.frete{
+    background-color: #ffcde8;
+    border-radius: 30px;
+    width: 450px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 230px;
+    margin-right: 230px;
+    box-shadow: 2px 2px 4px #bdb9b9;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ft_frete{
+    margin-left: 20px;
+}
+.encerra{
+    display: flex;
+}
+.cep{
+    border-radius: 30px;
+    background-color: #f8f7f7;
+    border-color: #f8f7f7;
+    width: 250px;
+    font-family: "Quicksand";
+}
+.calc{
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 100px;
+    height: 50px;
+    font-family: "Quicksand";
+    font-weight: 800;
+    box-shadow: 2px 2px 4px #b1aeae;
+    margin-left: 30px;
+    border-style: none;
 }
