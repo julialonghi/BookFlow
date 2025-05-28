@@ -98,7 +98,7 @@ select{
     margin-top: 0px;
 }
 .colecao{
-    background-color: #ffdfcd;
+    background-color: #d9d9d9;
     border-radius: 30px;
     width: 250px;
     height: 380px;
@@ -151,17 +151,37 @@ article{
     align-items: flex-start;
     font-family: "Quicksand";
 }
+.formulario input{
+    width: 920px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #c71eb0;
+}
+
+.erro {
+    display: none;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.erro-visivel {
+    display: block;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
 .formu{
     border-radius: 30px;
     background-color: #f8f7f7;
     border-color: #f8f7f7;
-    width: 750px;
     font-family: "Quicksand";
 }
 .cad{
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 30px;
 }
 .f{
     margin-left: 20px;
