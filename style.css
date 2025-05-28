@@ -54,13 +54,15 @@ a{
 .busca{
     border-radius: 30px;
     width: 700px;
-    background-color: #d9d9d9;
+    background-color: #ffdfcd;
     padding: 10px;
     padding-left: 0px;
     margin: 40px;
-    border-color: #d9d9d9;
+    border-color: #ffdfcd;
+    border-style: none;
     margin-left: 0px;
     margin-bottom: 0px;
+    box-shadow: 2px 2px 4px #bdb9b9;
 }
 .tipos{
     display: flex;
@@ -69,25 +71,34 @@ a{
 select{
     font-size: 15px;
     height: 40px;
-    background: #d9d9d9;
+    background: #ffdfcd;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 30px;
+    border-style: none;
     display: flex;
     margin-top: 40px;
+    box-shadow: 2px 2px 4px #bdb9b9;
 }
 .livro{
     border-radius: 10px;
     margin-top: 30px;
     width: 170px;
+    height: 247.5px;
 }
 .container{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
 }
 .colecao{
-    background-color: #d9d9d9;
+    background-color: #ffdfcd;
     border-radius: 30px;
     width: 250px;
     height: 380px;
@@ -199,6 +210,12 @@ li,h5{
     margin-left: 130px;
     margin-top: 30px;
 }
+.livro_ft2{
+    display: flex;
+    height: 110px;
+    margin-left: 130px;
+    margin-top: 5px;
+}
 .ft{
     border-radius: 10px;
 }
@@ -230,6 +247,8 @@ li,h5{
 h2{
     text-align: left;
     margin-left: 50px;
+    margin-top: 10px;
+    font-family: "Quicksand";
 }
 .pagamento{
     margin-left: 80px;
@@ -289,4 +308,10 @@ h2{
     box-shadow: 2px 2px 4px #b1aeae;
     margin-left: 30px;
     border-style: none;
+}
+hr{
+    border: 1px solid #ccc;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 100%;
 }
