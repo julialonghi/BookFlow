@@ -165,21 +165,6 @@ article{
     border: 2px solid #c71eb0;
 }
 
-.erro {
-    display: none;
-    color: red;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.erro-visivel {
-    display: block;
-    color: red;
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 5px;
-}
-
 .formu{
     border-radius: 30px;
     background-color: #f8f7f7;
@@ -205,9 +190,17 @@ li,h5{
 }
 .meninas{
    display:flex;
+   flex-direction: column;
    justify-content: flex-end;
    margin-left: 100px;
    margin-top: 45px;
+}
+.texto video {
+    display: block;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
 }
 .ft_meninas{
     width: 470px;
